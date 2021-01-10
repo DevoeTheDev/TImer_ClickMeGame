@@ -1,0 +1,34 @@
+<head>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script src="TimerHandler.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="column left">
+            <label id="leftCounter" class="Counter ClickMe">0</label>
+            </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+            <button  class="Button Left" onclick="OnRightLeftButtonClicked(true)">Click Me</button>
+        </div>
+        <div class="column space"></div>
+        <div class="column middle">
+            <label id="timerCounter" class="Counter Timer">00</label>
+            </br></br></br>
+            <input type="number" value=0 id="timerSeconds"></input>
+            </br></br></br></br></br></br></br>
+            <button id="startButton" class="Button Start" onclick="OnStartButtonClick()">Start</button>
+            </br></br></br></br></br></br>
+            <button id="resetButton" class="Button Reset" onclick="OnResetButtonClick()">Reset</button>
+        </div>
+        <div class="column space"> </div>
+        <div class="column right">
+            <label id="rightCounter" class="Counter ClickMe">0</label>
+        </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+            <button  class="Button Right" onclick="OnRightLeftButtonClicked(false)">Click Me</button>
+        </div>
+      </div> 
+
+      <footer>
+        <p>Timer-ClickMe Game (Developed in HTML, CSS and JS.) <i>@DevoeTheDev</i></p> 
+    </footer>
+</body>
